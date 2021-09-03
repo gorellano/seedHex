@@ -3,13 +3,11 @@ package ar.com.bdsol.seedhex.dddhexagonalspring.application.rest;
 import ar.com.bdsol.seedhex.dddhexagonalspring.application.request.AddProductRequest;
 import ar.com.bdsol.seedhex.dddhexagonalspring.application.request.CreateOrderRequest;
 import ar.com.bdsol.seedhex.dddhexagonalspring.application.response.CreateOrderResponse;
-import ar.com.bdsol.seedhex.dddhexagonalspring.domain.Order;
 import ar.com.bdsol.seedhex.dddhexagonalspring.domain.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Optional;
 import java.util.UUID;
 
 @RestController
